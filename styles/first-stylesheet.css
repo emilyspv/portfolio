@@ -1,0 +1,63 @@
+/* GLOBAL DEFAULT STYLES */
+
+body {  font-family: sans-serif;
+        margin: 40px;
+        color: hsla(186, 0%, 13%, 1);
+        background-color: hsla(14, 0%, 95%, 1);}
+
+/* COMMON PAGE HEADER STYLES */
+
+header {background-color: hsla(0, 0%, 19%, 1);
+        padding: 15px;
+        margin-bottom: 15px;}
+
+header img {opacity: 0.8;
+            max-width: 100%}
+header img:hover {opacity: 1;
+                  transition: opacity 0.5s;}
+
+  /* Nav styles */
+  nav a { font-size: 0.8rem;
+          text-transform: uppercase;
+          text-decoration: none;
+          padding-right: 20px;}
+
+  nav a:link {color: white;}
+  nav a:visited {color: hsla(14, 0%, 75%, 1);}
+  nav a:hover { color: hsla(72, 100%, 58%, 1);
+                background-color: black;}
+
+/* PAGE CONTENT STYLES */
+
+article { background-color: white;
+          padding: 15px;}
+article img {max-width: 35%;}
+
+  /* Project list styles */
+  ul {list-style: none;
+      margin: 0;
+      padding-left: 0;
+      padding-top: 15px;}
+  li {padding-bottom: 20px;}
+
+  article img { opacity: 0.7;
+                padding-right: 10px;}
+  article img:hover { opacity: 1;}
+  article a:link {color: hsla(210, 100%, 40%, 1);}
+  article a:visited {color: hsla(210, 100%, 40%, 0.75);}
+  article a:hover {background-color: hsla(72, 100%, 58%, 1);}
+
+  /* Columns */
+  ul {-webkit-column-count: 3; /* Chrome, Safari, Opera */
+      -moz-column-count: 3; /* Firefox */
+      column-count: 3;}
+  ul {-webkit-column-gap: 20%; /* Chrome, Safari, Opera */
+      -moz-column-gap: 20%; /* Firefox */
+      column-gap: 20%}
+
+/* FOOTER STYLES */
+
+footer p {font-size: 0.8rem;
+          color: hsla(72, 0%, 51%, 1);}
+footer a:link {color: hsla(186, 0%, 13%, 1);}
+footer a:hover {background-color: hsla(72, 100%, 58%, 1);}
