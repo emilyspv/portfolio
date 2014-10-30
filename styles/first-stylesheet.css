@@ -20,7 +20,7 @@ header img:hover {opacity: 1;
   nav a { font-size: 0.8rem;
           text-transform: uppercase;
           text-decoration: none;
-          padding-right: 20px;}
+          margin-right: 20px;}
 
   nav a:link {color: white;}
   nav a:visited {color: hsla(14, 0%, 75%, 1);}
@@ -40,12 +40,13 @@ article img {max-width: 35%;}
       padding-top: 15px;}
   li {padding-bottom: 20px;}
 
-  article img { opacity: 0.7;
-                padding-right: 10px;}
-  article img:hover { opacity: 1;}
-  article a:link {color: hsla(210, 100%, 40%, 1);}
-  article a:visited {color: hsla(210, 100%, 40%, 0.75);}
-  article a:hover {background-color: hsla(72, 100%, 58%, 1);}
+  li img {opacity: 0.7;
+          padding-right: 10px;}
+  li img:hover { opacity: 1;}
+
+  li a:link {color: hsla(210, 100%, 40%, 1);}
+  li a:visited {color: hsla(210, 100%, 40%, 0.75);}
+  li a:hover {background-color: hsla(72, 100%, 58%, 1);}
 
   /* Columns */
   ul {-webkit-column-count: 3; /* Chrome, Safari, Opera */
@@ -55,9 +56,17 @@ article img {max-width: 35%;}
       -moz-column-gap: 20%; /* Firefox */
       column-gap: 20%}
 
+  /* Block quotes */
+  blockquote {font-family: serif;
+              border: 1px solid hsla(72, 100%, 58%, 1);
+              padding: 0px 15px 0px 15px;
+              max-width: 50%;}
+  img ~ blockquote {float: right;}
+
 /* FOOTER STYLES */
 
 footer p {font-size: 0.8rem;
           color: hsla(72, 0%, 51%, 1);}
+
 footer a:link {color: hsla(186, 0%, 13%, 1);}
 footer a:hover {background-color: hsla(72, 100%, 58%, 1);}
