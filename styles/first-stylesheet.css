@@ -1,6 +1,6 @@
 /* GLOBAL DEFAULT STYLES */
 
-body {  font-family: sans-serif;
+body {  font-family: Roboto,sans-serif;
         margin: 40px;
         color: hsla(186, 0%, 13%, 1);
         background-color: hsla(14, 0%, 95%, 1);}
@@ -16,16 +16,20 @@ header img {opacity: 0.8;
 header img:hover {opacity: 1;
                   transition: opacity 0.5s;}
 
-  /* Nav styles */
-  nav a { font-size: 0.8rem;
-          text-transform: uppercase;
-          text-decoration: none;
-          margin-right: 20px;}
+/* Nav styles */
+nav a { font-size: 0.8rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-right: 20px;}
 
-  nav a:link {color: white;}
-  nav a:visited {color: hsla(14, 0%, 75%, 1);}
-  nav a:hover { color: hsla(72, 100%, 58%, 1);
-                background-color: black;}
+nav a:link {color: white;}
+nav a:visited {color: hsla(14, 0%, 75%, 1);}
+nav a:hover { color: hsla(72, 100%, 58%, 1);
+              background-color: black;}
+
+i { color: white;
+    float: right;
+    padding-left: 20px;}
 
 /* PAGE CONTENT STYLES */
 
@@ -33,35 +37,35 @@ article { background-color: white;
           padding: 15px;}
 article img {max-width: 35%;}
 
-  /* Project list styles */
-  ul {list-style: none;
-      margin: 0;
-      padding-left: 0;
-      padding-top: 15px;}
-  li {padding-bottom: 20px;}
+/* Project list styles */
+ul {list-style: none;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 15px;}
+li {padding-bottom: 20px;}
 
-  li img {opacity: 0.7;
-          padding-right: 10px;}
-  li img:hover { opacity: 1;}
+li img {opacity: 0.7;
+        padding-right: 10px;}
+li img:hover { opacity: 1;}
 
-  li a:link {color: hsla(210, 100%, 40%, 1);}
-  li a:visited {color: hsla(210, 100%, 40%, 0.75);}
-  li a:hover {background-color: hsla(72, 100%, 58%, 1);}
+li a:link {color: hsla(210, 100%, 40%, 1);}
+li a:visited {color: hsla(210, 100%, 40%, 0.75);}
+li a:hover {background-color: hsla(72, 100%, 58%, 1);}
 
-  /* Columns */
-  ul {-webkit-column-count: 3; /* Chrome, Safari, Opera */
-      -moz-column-count: 3; /* Firefox */
-      column-count: 3;}
-  ul {-webkit-column-gap: 20%; /* Chrome, Safari, Opera */
-      -moz-column-gap: 20%; /* Firefox */
-      column-gap: 20%}
+/* Columns */
+ul {-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;}
+ul {-webkit-column-gap: 20%; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20%; /* Firefox */
+    column-gap: 20%}
 
-  /* Block quotes */
-  blockquote {font-family: serif;
-              border: 1px solid hsla(72, 100%, 58%, 1);
-              padding: 0px 15px 0px 15px;
-              max-width: 50%;}
-  img ~ blockquote {float: right;}
+/* Block quotes */
+blockquote {font-family: "Roboto Slab", serif;
+            border: 1px solid hsla(72, 100%, 58%, 1);
+            padding: 0px 15px 0px 15px;
+            max-width: 50%;}
+img ~ blockquote {float: right;}
 
 /* FOOTER STYLES */
 
